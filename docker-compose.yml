@@ -24,4 +24,6 @@ services:
       - $PWD:/var/www/html
       - $PWD/config/apache2/sites:/etc/apache2/sites-enabled
       - $PWD/config/apache2/logs:/var/log/apache2
-      - $PWD/config/php:/usr/local/etc/php/conf.d/ini
+      - $PWD/config/php/php.ini:/usr/local/etc/php/php.ini
+      - $PWD/config/php/opcache.ini:/usr/local/etc/php/opcache.ini
+      - $PWD/config/php/xdebug.ini:/usr/local/etc/php/xdebug.ini
