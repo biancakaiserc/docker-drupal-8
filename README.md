@@ -22,6 +22,8 @@ Em seguida vá até o arquivo .gitignore na raiz do projeto e remova as linhas s
 
 `## Remove this lines when using your project`
 
+> Você pode usar o gitignore.example.txt como novo gitignore já com os arquivos necessários a serem excluídos
+
 Remova esse Readme e faça as alterações necessárias para o seu projeto.
 
 ## Instalação
