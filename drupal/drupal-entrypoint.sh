@@ -14,6 +14,8 @@ echo ""
 cd /var/www/html/
 composer install
 
+echo "export PATH=${PATH}:/var/www/html/vendor/drush/drush" >> ~/.bashrc
+
 echo ""
 echo "--------------------------------------"
 echo "------ Dependencies Installed --------"
